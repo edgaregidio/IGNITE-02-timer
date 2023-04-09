@@ -85,6 +85,7 @@ export function Home() {
   }
 
   function handleInterruptCycle() {
+    //pegando historico do encerramento do ciclo
     setActiveCycleId(null)
 
     setCycles(cycles.map(cycle => {
