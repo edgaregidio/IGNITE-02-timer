@@ -69,6 +69,7 @@ export function Home() {
               return cycle
             }
           }))
+          setAmountSecondsPassed(totalSeconds)
           clearInterval(interval)
         } else {
           setAmountSecondsPassed(secondsDifference)
